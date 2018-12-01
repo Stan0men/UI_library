@@ -1,0 +1,72 @@
+$flat-hover-color: rgba(0,0,0, 0.04);
+$flat-active-color: rgba(0,0,0, 0.1);
+
+.block-container{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.fl-button {
+  color: $color-1;
+  padding: 9px 49px 7px;
+  font-size: 16px;
+  outline: none;
+  line-height: 1;
+  background: transparent;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin-right: 20px;
+
+  @include common-styles();
+  @include with-ripple($flat-hover-color, $flat-active-color);
+
+  &_colored {
+    color: $color-2;
+  }
+  &_disabled {
+    color: #a8a8a8;
+    background-color: #eaeaea;
+  }
+
+  &_narrow {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+.ra-button {
+  color: $color-1;
+  padding: 9px 49px 7px;
+  font-size: 16px;
+  outline: none;
+  line-height: 1;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin-right: 20px;
+  background-color:$color-3 ;
+
+  @include box-shadow(1);
+  @include common-styles();
+  @include with-ripple($flat-hover-color, $flat-active-color);
+
+  &_colored {
+   background-color: $color-2;
+    color: $color-3;
+  }
+  &_disabled {
+    color: #a8a8a8;
+    background-color: #eaeaea;
+  }
+
+  &_narrow {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
