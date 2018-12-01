@@ -1,14 +1,6 @@
 $flat-hover-color: rgba(0,0,0, 0.04);
 $flat-active-color: rgba(0,0,0, 0.1);
 
-.block-container{
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
-}
 
 
 .fl-button {
@@ -21,7 +13,6 @@ $flat-active-color: rgba(0,0,0, 0.1);
   border: 0;
   text-transform: uppercase;
   border-radius: 3px;
-  margin-right: 20px;
 
   @include common-styles();
   @include with-ripple($flat-hover-color, $flat-active-color);

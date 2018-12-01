@@ -1,6 +1,17 @@
-.icon-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+i {
+  margin-right: 50px;
+  &:hover{
+    background-color: lightgray;
+    border-radius: 50px;
+    height: 20px;
+  }
+}
+h3{
+  margin-right: 50px;
+}
+.styled i:nth-child(3){
+ color: red;
+}
+.styled i:nth-child(4){
+  color: lightgray;
 }

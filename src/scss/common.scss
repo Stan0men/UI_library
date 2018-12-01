@@ -11,6 +11,14 @@
   width: 90%;
   margin: 50px auto;
 }
+.block-container{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 
 h2 {
   color:#5265a2 ;
