@@ -9,9 +9,16 @@ i {
 h3{
   margin-right: 50px;
 }
-.styled i:nth-child(3){
+.heart_red{
  color: red;
 }
-.styled i:nth-child(4){
+.heart_grey{
   color: lightgray;
+}
+
+.segmented i {
+  color:lightgray;
+  &:hover{
+    color: black;
+  }
 }

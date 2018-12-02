@@ -41,6 +41,7 @@ h3 {
   border: 0;
   text-transform: uppercase;
   border-radius: 3px;
+  margin-right: 20px;
   font-family: Roboto, sans-serif;
   background-position: center;
   -webkit-transition: background 0.8s;
@@ -197,8 +198,13 @@ i {
 h3 {
   margin-right: 50px; }
 
-.styled i:nth-child(3) {
+.heart_red {
   color: red; }
 
-.styled i:nth-child(4) {
+.heart_grey {
   color: lightgray; }
+
+.segmented i {
+  color: lightgray; }
+  .segmented i:hover {
+    color: black; }
