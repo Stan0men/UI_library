@@ -25,7 +25,7 @@
 
 h2 {
   color: #5265a2;
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
 
 h3 {
   margin-bottom: 30px; }
@@ -60,9 +60,13 @@ h3 {
   .fl-button_disabled {
     color: #a8a8a8;
     background-color: #eaeaea; }
-  .fl-button_narrow {
+  .fl-button_info {
     padding-left: 6px;
-    padding-right: 6px; }
+    padding-right: 6px;
+    background: none;
+    border: none; }
+    .fl-button_info:hover {
+      background-color: #4285f4; }
 
 .ra-button {
   color: #000;
@@ -117,39 +121,20 @@ h3 {
     white-space: nowrap; }
     .dr-card__title_light {
       color: rgba(255, 255, 255, 0.87); }
-    @media (max-width: 767px) {
-      .dr-card__title {
-        font-size: 32px; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .dr-card__title {
-        font-size: 30px; } }
   .dr-card__header {
     height: 180px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 12px; }
+    padding-bottom: 12px;
+    background-color: #4285f4; }
     .dr-card__header .dr-card__title {
       position: relative;
       margin-top: auto; }
-  .dr-card__image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
   .dr-card__description {
     margin: 0;
     padding: 20px 21px 6px; }
-    @media (max-width: 767px) {
-      .dr-card__description {
-        font-size: 22px; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .dr-card__description {
-        font-size: 20px; } }
   .dr-card__divider {
     background-color: #ddd;
     border: none;

@@ -26,9 +26,14 @@ $flat-active-color: rgba(0,0,0, 0.1);
     background-color: #eaeaea;
   }
 
-  &_narrow {
+  &_info {
     padding-left: 6px;
     padding-right: 6px;
+    background: none;
+    border: none;
+    &:hover {
+      background-color: $color-2;
+    }
   }
 }
 
