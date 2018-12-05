@@ -1,6 +1,6 @@
 # Open source web_ui library
 
-### Link: https://github.com/Stan0men/UI_library/dist/index.html
+### Link: https://stan0men.github.io/UI_library/dist/
 
 # To watch examples 
 1.  Clone or download this repo
