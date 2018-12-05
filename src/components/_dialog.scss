@@ -1,0 +1,30 @@
+.toast {
+  width: 500px;
+  &-header{
+    width: 60%;
+      background-color: #323232;
+      padding: 20px;
+    margin-bottom: 50px;
+    color: $color-3;
+    border-radius: 3px;
+  }
+  &-link {
+    background-color: #323232;
+    padding: 20px;
+    color: $color-3;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    a {
+      color: #eeff41;
+      margin-left: 20px;
+      text-transform: uppercase;
+    }
+  }
+  &-message{
+    width: 60%;
+    background-color: #323232;
+    padding: 20px;
+    color: $color-3;
+    border-radius: 50px;
+  }
+}
