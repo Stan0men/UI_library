@@ -265,3 +265,85 @@ h3 {
     padding: 20px;
     color: rgba(255, 255, 255, 0.87);
     border-radius: 50px; }
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333; }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+
+.dropdown {
+  overflow: hidden; }
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  margin: 0; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; }
+    .dropdown-content a:hover {
+      background-color: #ddd; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  left: 50%; }
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1; }
+  .tooltiptext-left {
+    top: 10px;
+    right: 105%; }
+  .tooltiptext-bottom {
+    width: 120px;
+    top: 105%;
+    left: 30%;
+    margin-left: -60px; }
+  .tooltiptext-top {
+    width: 120px;
+    bottom: 105%;
+    left: 35%;
+    margin-left: -60px; }
+  .tooltiptext-right {
+    top: 10px;
+    left: 60%; }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible; }
