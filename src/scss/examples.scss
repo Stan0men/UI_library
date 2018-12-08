@@ -1,7 +1,9 @@
-@import "../scss/variables";
-@import "../scss/mixins";
+@import "_variables";
+@import "_mixins";
 
-
+* {
+  font-family: 'Roboto', sans-serif;
+}
 
 .box-shadow-box {
   width: 150px;
