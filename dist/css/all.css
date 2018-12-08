@@ -248,9 +248,12 @@ h3 {
 .dividers-text {
   padding-bottom: 20px; }
 
+<<<<<<< HEAD
 li {
   list-style-type: none; }
 
+=======
+>>>>>>> 597cd5e1663287ec18c2f4161480afac376b4640
 .width-320 {
   width: 320px; }
 
@@ -283,8 +286,13 @@ li {
 .material-toggle {
   display: block;
   min-height: 40px;
+<<<<<<< HEAD
   padding-right: 20px;
   margin-right: 20px;
+=======
+  padding: 20px;
+  margin: 20px;
+>>>>>>> 597cd5e1663287ec18c2f4161480afac376b4640
   text-align: right; }
 
 .material-toggle input[type="checkbox"] {
@@ -339,6 +347,7 @@ li {
 .label {
   position: relative; }
 
+<<<<<<< HEAD
 .checkbox {
   display: none; }
 
@@ -578,3 +587,37 @@ label {
   0% {
     left: -200%;
     right: 100%; } }
+=======
+input {
+  display: none; }
+
+.label-checkbox > label::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid black;
+  vertical-align: middle;
+  border-radius: 5px; }
+
+.label-checkbox > label::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: black;
+  vertical-align: middle;
+  left: 5px; }
+
+.label-checkbox > input:checked + label::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background: url(https://www.google.com.ua/search?q=галочка&rlz=1C1SQJL_ruUA813UA813&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9nJqAsInfAhVHtYsKHdxPDp0Q_AUIDigB&biw=1366&bih=657#imgrc=51jEgzYOowu33M:) no-repeat;
+  background-size: 100%; }
+>>>>>>> 597cd5e1663287ec18c2f4161480afac376b4640
