@@ -1,0 +1,125 @@
+.progress {
+    width: 40px;
+    height: 40px;
+}
+.progress-width-2{
+    width: 50px;
+    height: 50px;
+}
+.progress-width-3{
+    width: 70px;
+    height: 70px;
+}
+.progress-width-4{
+    width: 80px;
+    height: 80px;
+}
+.progress-width-5{
+    width: 80px;
+    height: 80px;
+}
+.progress-circle {
+    margin: 16px;
+    color: #2196f3;
+    animation: mui-progress-circular-rotate 1.4s linear infinite;
+    display: inline-block;
+    line-height: 1;
+    stroke: currentColor;
+    stroke-dasharray: 80px, 200px;
+    stroke-dashoffset: 0px;
+}
+@keyframes mui-progress-circular-rotate{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.progress-line-green{
+    height:5px;
+    position: relative;
+    overflow:hidden;
+    background-color:#87ceac;
+    margin-bottom: 40px;
+}
+.progress-line-red{
+    height:5px;
+    position: relative;
+    overflow:hidden;
+    background-color: rgb(240, 132, 171);
+    margin-bottom: 40px;
+}
+.progress-line-speed1 {
+    width: auto;
+    animation: mui-indeterminate1 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    will-change: left, right;
+    animation-delay: 1.15s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    transition: transform 0.2s linear;
+    transform-origin: left;
+    background-color: #009e55;
+}
+.progress-line-speed2 {
+    width: auto;
+    animation: mui-indeterminate1 2.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    will-change: left, right;
+    animation-delay: 1.5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    transition: transform 0.2s linear;
+    transform-origin: left;
+    background-color: #009e55;
+}
+.progress-line-speed3 {
+    width: auto;
+    animation: mui-indeterminate1 3s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    will-change: left, right;
+    animation-delay: 1.5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    transition: transform 0.2s linear;
+    transform-origin: left;
+    background-color: #009e55;
+}
+.progress-line-speed4 {
+    width: auto;
+    animation: mui-indeterminate1 3.25s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    will-change: left, right;
+    animation-delay: 1.5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    transition: transform 0.2s linear;
+    transform-origin: left;
+    background-color: rgb(225, 0, 80);
+}
+.progress-line-speed5 {
+    width: auto;
+    animation: mui-indeterminate1 3.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    will-change: left, right;
+    animation-delay: 1.5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    transition: transform 0.2s linear;
+    transform-origin: left;
+    background-color: rgb(225, 0, 80);
+}
+@keyframes mui-indeterminate1{
+    0% {
+        left: -200%;
+        right: 100%;
+    }
+}
