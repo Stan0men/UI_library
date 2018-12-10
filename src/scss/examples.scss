@@ -1,31 +1,33 @@
 //*{
 //  outline: 1px solid black;
 //}
+
+//main styles
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container{
-  width: 90%;
-  margin: 50px auto;
+//typography
+.text-center{
+  text-align: center;
 }
-.block-container{
-  width: 100%;
-  //align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
+button{
+  margin-right: 10px;
 }
-
+i{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.margin-bottom_50{
+   margin-bottom: 50px;
+ }
+.margin-bottom_100{
+  margin-bottom: 100px;
+}
 h2 {
   color:#5265a2 ;
-  margin-bottom: 50px;
-}
-h3 {
-  margin-bottom: 30px;
 }
 
 .tooltip-container{
