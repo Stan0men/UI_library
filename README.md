@@ -1,3 +1,3 @@
 # ui-components-library
 
-[link](https://stan0men.github.io/UI_library/dist/)
+[Link to see it](https://stan0men.github.io/UI_library/dist/)
