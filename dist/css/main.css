@@ -16,7 +16,7 @@ button {
   border-radius: 5px;
   font-size: 16px;
   color: #000000;
-  padding: 8px 45px;
+  padding: 10px 50px;
   margin: 28px 37px 0 42px;
   position: relative; }
   .vo_simple_button_color_blue {
@@ -272,6 +272,9 @@ button {
 .vo_b_chapter_content {
   font-weight: normal; }
 
+.vo_class_items {
+  margin-top: 25px; }
+
 .vo_container_radio {
   display: block;
   position: relative;
@@ -284,7 +287,8 @@ button {
           user-select: none;
   font-family: "Roboto", sans-serif;
   color: black;
-  font-size: 20px; }
+  font-size: 16px;
+  font-weight: normal; }
 
 .vo_checkbox_tittle {
   margin-top: 50px;
@@ -329,8 +333,8 @@ button {
 .vo_radio_ripple {
   opacity: 0.5;
   position: absolute;
-  top: -10px;
-  left: -11px;
+  top: -12px;
+  left: -14px;
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -341,8 +345,8 @@ button {
 .switch {
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 20px; }
+  width: 35px;
+  height: 18px; }
 
 .switch .vo_switch_button {
   opacity: 0;
@@ -369,21 +373,21 @@ button {
   border-radius: 50%;
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 0;
-  bottom: -3px;
+  height: 20px;
+  width: 20px;
+  left: -1px;
+  bottom: -1px;
   background-color: #757575;
   -webkit-transition: 0.4s;
   transition: 0.4s; }
 
 .slider-circle-ripple {
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  top: -15px;
+  top: -9px;
   border-radius: 50%;
-  left: -15px; }
+  left: -9px; }
   .slider-circle-ripple:hover {
     background-color: #757575;
     opacity: 0.3; }
@@ -401,8 +405,8 @@ button {
 
 .vo_switch_button:checked + .slider:before,
 .vo_switch_button:checked + .slider .slider-circle {
-  -webkit-transform: translateX(26px);
-          transform: translateX(26px);
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
   color: #259b24;
   background-color: #259b24; }
 
@@ -607,7 +611,7 @@ button {
 
 .vo_button_icon_menu {
   color: #757575;
-  font-size: 30px;
+  font-size: 25px;
   margin-right: 35px; }
 
 .vo_menu_icon {
@@ -630,7 +634,7 @@ button {
 
 .vo_icon_menu_text {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: #757575;
   font-weight: normal; }
 
@@ -1109,11 +1113,10 @@ button {
           flex-direction: column; }
 
 .vo_data_tables {
-  width: 850px;
-  height: 920px;
+  width: 715px;
+  height: 720px;
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-  margin: 0 auto; }
+          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
 
 .vo_calories_header {
   color: rgba(0, 0, 0, 0.87);
@@ -1146,7 +1149,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 65px;
+  height: 50px;
   border: 1px solid #e8e8e8; }
   .vo_wrapper_calories_component_hover_blue:hover {
     background-color: #e8effc;
@@ -1172,7 +1175,7 @@ button {
 .vo_calories_content {
   margin-left: 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #757575; }
   .vo_calories_content_blue {
     color: #60befb; }
@@ -1180,7 +1183,7 @@ button {
     color: #757575;
     margin-right: 40px; }
   .vo_calories_content_black {
-    font-size: 15px;
+    font-size: 13px;
     color: rgba(0, 0, 0, 0.87);
     margin-right: 65px; }
 
@@ -1207,10 +1210,100 @@ button {
 
 .vo_list_wrapper {
   width: 715px;
-  height: 780px;
+  height: 830px;
   margin-top: 50px;
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
           box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+
+.vo_list_header {
+  padding-top: 17px; }
+
+.vo_wrapper_line_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-left: 30px; }
+
+.vo_item_circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #d8d8d8; }
+  .vo_item_circle:hover {
+    background-color: #757575;
+    cursor: pointer; }
+
+.vo_wrapper_content_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.vo_color_content {
+  color: #000000; }
+
+.vo_content_item_header {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold; }
+
+.vo_content_item {
+  margin: 0 0 5px 15px; }
+
+.vo_gray_light_line {
+  background-color: #d8d8d8;
+  width: 715px;
+  height: 2px;
+  margin: 25px 0; }
+
+.vo_wrapper_lable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 28px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end; }
+
+.vo_content_item_2 {
+  margin: 0 0 0 33px; }
+
+.vo_wrapper_circle_label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 33px; }
+
+.vo_item_circle_little {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #757575; }
+  .vo_item_circle_little:hover {
+    background-color: #d8d8d8;
+    cursor: pointer; }
+
+.vo_position-switch {
+  margin-right: 20px; }
+
+.vo_icon_comment {
+  width: 20px;
+  height: 20px;
+  color: #757575;
+  margin-right: 30px; }
+
+.vo_wrapper_circle_item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .vo_header {
   position: fixed;

@@ -1,8 +1,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 20px;
+  width: 35px;
+  height: 18px;
 }
 
 .switch {
@@ -34,21 +34,21 @@
   border-radius: 50%;
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 0;
-  bottom: -3px;
+  height: 20px;
+  width: 20px;
+  left: -1px;
+  bottom: -1px;
   background-color: $color_light_gray;
   transition: 0.4s;
 }
 
 .slider-circle-ripple {
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  top: -15px;
+  top: -9px;
   border-radius: 50%;
-  left: -15px;
+  left: -9px;
 
   &:hover {
     background-color: $color_light_gray;
@@ -71,7 +71,7 @@
 
 .vo_switch_button:checked + .slider:before,
 .vo_switch_button:checked + .slider .slider-circle {
-  transform: translateX(26px);
+  transform: translateX(20px);
   color: #259b24;
   background-color: #259b24;
 }
