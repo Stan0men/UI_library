@@ -1,31 +1,39 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+@import "../scss/mixin";
+@import "../scss/variables";
 
-li{
-  float: left;
+.container-toolbar{
+  width: 50%;
 }
-
-a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  &:hover {
-    background-color: #111;
+.toolbar{
+  width: 100%;
+  margin-bottom: 30px;
+  &-simple{
+    height: 65px;
+    background-color: #607d8b;
+    &-first{
+      width: 50%;
+    }
+    &-second{
+      width: 50%;
+    }
+  }
+  &-tall{
+    height: 190px;
+    background-color: #009688;
+  }
+  &-tall-elements-aligned-bottom{
+    height: 190px;
+    background-color: #673ab7;
+  }
+  &-medium-tall-labels-aligned-bottom{
+    height: 130px;
+    background-color: #03a9f4;
+  }
+  &-medium-tall-labels-aligned-middle{
+    height: 190px;
+    background-color: #e91e63;
   }
 }
-.active {
-  background-color: #4CAF50;
-  display: block;
-  position: relative;
-  right: 0;
-}
-.pulled-right{
-  float: right;
+.bg-white {
+  color: white;
 }

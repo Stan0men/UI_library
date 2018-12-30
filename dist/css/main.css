@@ -1605,6 +1605,45 @@ button {
   align-items: center;
 }
 
+.container-toolbar {
+  width: 50%;
+}
+
+.toolbar {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.toolbar-simple {
+  height: 65px;
+  background-color: #607d8b;
+}
+.toolbar-simple-first {
+  width: 50%;
+}
+.toolbar-simple-second {
+  width: 50%;
+}
+.toolbar-tall {
+  height: 190px;
+  background-color: #009688;
+}
+.toolbar-tall-elements-aligned-bottom {
+  height: 190px;
+  background-color: #673ab7;
+}
+.toolbar-medium-tall-labels-aligned-bottom {
+  height: 130px;
+  background-color: #03a9f4;
+}
+.toolbar-medium-tall-labels-aligned-middle {
+  height: 190px;
+  background-color: #e91e63;
+}
+
+.bg-white {
+  color: white;
+}
+
 .vo_header {
   position: fixed;
   top: 0;
