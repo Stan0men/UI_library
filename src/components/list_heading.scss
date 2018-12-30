@@ -1,0 +1,10 @@
+@import "../scss/mixin";
+@import "../scss/variables";
+
+.vo_list_wrapper {
+  width: 715px;
+  height: 780px;
+   margin-top: 50px;
+  @include box-shadows(1);
+
+}

@@ -30,6 +30,9 @@
 .tabs_header{
     padding: 5px 20px 0 20px;
 }
+.wrapper_tabs{
+    width:800px;
+}
 .tabs_conteiner{
     display:flex;
     height: 192px;
@@ -60,5 +63,11 @@
 .tabs_header{
     background: #00bcd7;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    color:#fff;
+}
+.conteiner__picture .material-icons{
+    color:#fff;
+}
+.top__picture .material-icons{
     color:#fff;
 }
