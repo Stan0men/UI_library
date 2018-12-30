@@ -120,12 +120,16 @@ button{
 .vo_class_indent {
   margin: 20px 35px 25px 70px;
 }
-
+.vo_footer_right .vo_mini_button{
+  margin:0 auto;
+  margin-bottom:20px;
+}
 .vo_mini_button {
   position: relative;
   padding: 10px;
   border-radius: 100px;
-  margin:0 auto;
+  margin-left: 30px;
+  margin-bottom: 30px;
   @include shadow_button;
   &_color_white{
     color:$color-white;
