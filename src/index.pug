@@ -1,22 +1,33 @@
 doctype html
 html(lang='en')
+
     head
         meta(charset='UTF-8')
-        title UI_library
-        //link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO', crossorigin='anonymous')
-        link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.5.0/css/all.css', integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU', crossorigin='anonymous')
-        link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:300,400,500')
-        link(rel='stylesheet', href='css/all.css')
+        title Title
+        link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+        link(rel='stylesheet', href='./css/main.css')
+
     body
-        .container
-            .header
-            .navbar
-            include examples/box-shadows
-            include examples/buttons
-            include examples/icon-button
-            include examples/cards
-            include examples/dialog
-            include examples/tooltips
-            include examples/forms
-            //include examples/datatables
-            include examples/toolbar
+      .vo_header
+      .vo_navbar
+      .vo_body
+        include exemples/button
+        include exemples/button_tooltip
+        include exemples/checkbox
+        include exemples/radio_button
+        include exemples/switch_button
+        include exemples/menu_items
+        include exemples/shadows
+        include exemples/progress_line
+        include exemples/input
+        include exemples/slider_range
+        include exemples/inset_dividers
+        include exemples/сard_heading_calories
+        include exemples/list_heading
+
+
+        script(async='', src='https://cdn.jsdelivr.net/npm/vanilla-ripplejs@1.0.6', integrity='sha384-OlarGErerEgz/M7123pQTTek4pUIiR6t0BK09bTmWDi2cZYbv3VHrriaXDnA0Oup', crossorigin='anonymous')
+        script(src='main.js')
+
+
