@@ -1,39 +1,84 @@
 @import "../scss/mixin";
 @import "../scss/variables";
 
-.container-toolbar{
+.container-toolbar {
   width: 50%;
 }
-.toolbar{
+
+.toolbar {
   width: 100%;
   margin-bottom: 30px;
-  &-simple{
+
+  &-simple {
     height: 65px;
     background-color: #607d8b;
-    &-first{
+    display: flex;
+    flex-direction: row;
+
+    &-first {
       width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      height: 65px;
     }
-    &-second{
+
+    &-second {
       width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      height: 65px;
     }
   }
-  &-tall{
+
+  &-tall {
     height: 190px;
     background-color: #009688;
+    display: flex;
+    flex-direction: row;
+
+    &-first {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: flex-start;
+      height: 190px;
+    }
+
+    &-second {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-start;
+      height: 190px;
+    }
   }
-  &-tall-elements-aligned-bottom{
+
+  &-tall-elements-aligned-bottom {
     height: 190px;
     background-color: #673ab7;
+
+    &-first {
+
+    }
   }
-  &-medium-tall-labels-aligned-bottom{
+
+  &-medium-tall-labels-aligned-bottom {
     height: 130px;
     background-color: #03a9f4;
   }
-  &-medium-tall-labels-aligned-middle{
+
+  &-medium-tall-labels-aligned-middle {
     height: 190px;
     background-color: #e91e63;
   }
 }
+
 .bg-white {
   color: white;
 }
