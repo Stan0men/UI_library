@@ -1,6 +1,8 @@
-
+//*{
+//  outline: 1px solid;
+//}
 .container-toolbar {
-  width: 50%;
+  width: 785px;
 }
 
 .toolbar {
@@ -64,24 +66,27 @@
     flex-direction: row;
 
     &-first {
-      outline: 1px solid;
       width: 80%;
       display: flex;
       flex-direction: row;
       justify-content: start;
       align-items: flex-end;
       height: 190px;
-      p{
+      padding-bottom: 30px;
+
+      p {
         font-size: 21px;
       }
     }
-    &-second{
+
+    &-second {
       width: 20%;
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
       align-items: flex-end;
       height: 190px;
+      padding-bottom: 30px;
     }
   }
 
@@ -90,23 +95,35 @@
     background-color: #03a9f4;
     display: flex;
     flex-direction: row;
-    &-first{
-      outline: 1px solid;
-      width: 80%;
+
+    &-first {
+      width: 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 130px;
+    }
+
+    &-second {
+      width: 70%;
       display: flex;
       flex-direction: row;
       justify-content: start;
       align-items: flex-end;
       height: 130px;
+
+      p {
+        font-size: 21px;
+      }
     }
-    &-second{
-      outline: 1px solid;
+
+    &-third {
       width: 20%;
       display: flex;
       flex-direction: row;
-      justify-content: start;
-      align-items: flex-end;
-      height: 130px;
+      justify-content: flex-end;
+      align-items: flex-start;
+      height: 100px;
     }
   }
 
@@ -114,6 +131,43 @@
   &-medium-tall-labels-aligned-middle {
     height: 190px;
     background-color: #e91e63;
+    display: flex;
+    flex-direction: row;
+
+    &-first {
+      width: 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      height: 190px;
+    }
+
+    &-second {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 160px;
+
+      p:first-child {
+        font-size: 21px;
+      }
+
+      p:last-child {
+        font-size: 18px;
+      }
+    }
+
+    &-third {
+      width: 20%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-start;
+      height: 160px;
+    }
+
   }
 }
 
@@ -121,10 +175,11 @@
   color: white;
 }
 
-.mg-top_30{
+.mg-top_30 {
   margin-top: 30px;
 }
-.mg-bottom_30{
+
+.mg-bottom_30 {
   margin-bottom: 30px;
 }
 
@@ -139,6 +194,7 @@
 .mg-left_50 {
   margin-left: 50px;
 }
+
 .mg-left_30 {
   margin-left: 30px;
 }
@@ -146,6 +202,7 @@
 .mg-right_50 {
   margin-right: 50px;
 }
+
 .mg-right_30 {
   margin-right: 30px;
 }
