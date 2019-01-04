@@ -6,16 +6,35 @@
   font-size: 25px;
   margin-right: 35px;
 }
+.vo_menu_shadow ul{
+  display:none;
+  padding:0;
+}
+
+.vo_menu_shadow.open ul{
+  display:block;
+}
+
+.vo_menu_header_text{
+  font-family: $font-family;
+  font-size: 30px;
+  color: $color-light_gray;
+  text-align: center;
+}
+
+.vo_menu_header_text:hover {
+  background: $color_opacity_gray;
+  cursor: pointer;
+}
 
 .vo_menu_icon {
   position: relative;
-
   align-items: center;
-  display: flex;
   width: 235px;
   padding: 5px;
   border-radius: 5px;
   margin-bottom: 15px;
+  list-style: none;
 
   &:hover {
     background: $color_opacity_gray;
@@ -59,3 +78,4 @@
   width: 245px;
   @include shadow_button;
 }
+

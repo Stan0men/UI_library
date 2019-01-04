@@ -625,18 +625,33 @@ button {
   font-size: 25px;
   margin-right: 35px; }
 
+.vo_menu_shadow ul {
+  display: none;
+  padding: 0; }
+
+.vo_menu_shadow.open ul {
+  display: block; }
+
+.vo_menu_header_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #757575;
+  text-align: center; }
+
+.vo_menu_header_text:hover {
+  background: #a8a8a838;
+  cursor: pointer; }
+
 .vo_menu_icon {
   position: relative;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 235px;
   padding: 5px;
   border-radius: 5px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  list-style: none; }
   .vo_menu_icon:hover {
     background: #a8a8a838;
     cursor: pointer; }

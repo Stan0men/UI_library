@@ -50,21 +50,27 @@ h1.vo_b_title Menus & Menu Items
 
 h1.vo_b_title Menu Dropdown
     .class_button
-    .vo_menu_shadow
+    #sweeties.vo_menu_shadow
+        .vo_menu_header_text Menu
+        ul
+            li.vo_menu_icon
+                .rippleJS
+                +button({label: 'schedule', class: 'material-icons vo_button_icon_menu '})
+                span.vo_icon_menu_text Recent Articles
+            li.vo_menu_icon
+                .rippleJS
+                +button({label: 'archive', class: 'material-icons vo_button_icon_menu '})
+                span.vo_icon_menu_text Archive
+            li.vo_menu_icon
+                .rippleJS
+                +button({label: 'check', class: 'material-icons vo_button_icon_menu '})
+                span.vo_icon_menu_text Completed
+script.
+  var menuElem = document.getElementById('sweeties');
+  var titleElem = menuElem.querySelector('.vo_menu_header_text');
+  titleElem.onclick = function() {
+  menuElem.classList.toggle('open');
+  };
 
-        .vo_menu_icon
-            .rippleJS
-            +button({label: 'schedule', class: 'material-icons vo_button_icon_menu '})
-            span.vo_icon_menu_text Recent Articles
-
-        .vo_menu_icon
-            .rippleJS
-            +button({label: 'archive', class: 'material-icons vo_button_icon_menu '})
-            span.vo_icon_menu_text Archive
-
-        .vo_menu_icon
-            .rippleJS
-            +button({label: 'check', class: 'material-icons vo_button_icon_menu '})
-            span.vo_icon_menu_text Completed
 
 
