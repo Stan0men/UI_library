@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100px;
-  background-color: #e8e8e8;
+  background-color: #333333;
   z-index: 1; }
   .header-slogan {
     width: 100%;
@@ -26,7 +26,6 @@ nav {
   top: 100px;
   height: 100vh;
   width: 20vw;
-  background-color: lightgrey;
   z-index: 0;
   left: 0; }
 
