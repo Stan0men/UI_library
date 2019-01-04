@@ -1,15 +1,13 @@
-.card-examples
-    h2 Dialog
-    .dr-card
-        span.dr-card__title Card headline title
-        p.dr-card__description Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.
-        .dr-card__footer
-            button.fl-button MORE INFO…
-            button.fl-button.fl-button_pulled DECLINE
-            button.fl-button.fl-button_pulled.fl-button_colored ACCEPT
-    h2 Toast
-    .toast
-        .toast-header Your draft have been discardet
-        .toast-link Conection time out.Showing limited messages.
-            a(href='javascript:void(0)') Retry
-        .toast-message Message sent
+include _mixin_button
+
+.dialog.mg-left_30
+    .vo_b_title Dialog
+    .dialog-content#dialog Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    .dialog-buttons-wrapper
+        .buttons-wrapper__first
+        +button({ label: 'MORE INFO...', isRipple: true, class: 'vo_simple_button' })
+        .buttons-wrapper__second
+        +button({ label: 'DECLINE', isRipple: true, class: 'vo_simple_button' })
+        +button({ label: 'ACCEPT', isRipple: true, class: 'vo_simple_button vo_simple_button_color_blue vo_ripple_gray' })
+
+

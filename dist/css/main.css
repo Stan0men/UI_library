@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100px;
+  height: 65px;
   background-color: #333333;
   z-index: 1;
 }
@@ -31,21 +31,16 @@
 
 nav {
   position: fixed;
-  top: 100px;
-  height: 100vh;
+  top: 65px;
   width: 20vw;
   z-index: 0;
   left: 0;
 }
 
 .sidebar-nav {
-  position: fixed;
-  top: 100px;
-  height: 100vh;
-  width: 300px;
+  width: 185px;
   background-color: black;
-  z-index: 3;
-  left: 0;
+  height: 100vh;
 }
 .sidebar-nav li {
   text-indent: 20px;
@@ -186,6 +181,7 @@ button {
 }
 
 .class_button {
+  width: 60vw;
   margin-top: 90px;
   font-family: "Roboto", sans-serif;
   position: relative;
@@ -1011,6 +1007,7 @@ button {
 .vo_box_shadows {
   width: 150px;
   height: 150px;
+  margin-bottom: 20px;
 }
 .vo_box_shadows_1 {
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16),
@@ -1050,9 +1047,22 @@ button {
 }
 
 .vo_class_shadows {
+  width: 45vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .vo_input_name {
@@ -1798,7 +1808,7 @@ button {
   align-items: center;
 }
 
-<<<<<<< head .container-toolbar {
+.container-toolbar {
   width: 785px;
 }
 
@@ -2109,7 +2119,8 @@ button {
 .mg-right_30 {
   margin-right: 30px;
 }
-======= .tabs {
+
+.tabs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2208,7 +2219,63 @@ button {
 .top__picture .material-icons {
   color: #fff;
 }
->>>>>>>master .vo_header {
+
+.dialog {
+  width: 430px;
+}
+.dialog .vo_b_title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.dialog-buttons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.dialog-buttons-wrapper button {
+  margin: 0;
+  padding: 10px 40px;
+}
+
+.toast {
+  font-size: 14px;
+}
+.toast-header {
+  margin-top: 20px;
+  width: 290px;
+  background-color: rgba(0, 0, 0, 0.87);
+  padding: 20px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.toast-link {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.87);
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.toast-link a {
+  color: #eeff41;
+  margin-left: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.toast-message {
+  width: 290px;
+  background-color: rgba(0, 0, 0, 0.87);
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.vo_header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -2230,7 +2297,8 @@ button {
 }
 
 .vo_body {
+  width: 80vw;
   position: relative;
   top: 100px;
-  left: 300px;
+  left: 200px;
 }

@@ -11,6 +11,7 @@ button{
 }
 
 .class_button {
+  width:60vw;
   margin-top: 90px;
   @include common-styles();
   position: relative;

@@ -17,6 +17,12 @@
 @import "../components/list_heading";
 @import "../components/toolbar";
 @import "../components/tabs";
+@import "../components/dialog";
+@import "../components/toast";
+
+//*{
+//    outline: 1px solid ;
+//  }
 
 .vo_header {
   position: fixed;
@@ -38,7 +44,8 @@
   left: 0;
 }
 .vo_body {
+  width: 80vw;
   position: relative;
   top: 100px;
-  left: 300px;
+  left: 200px;
 }
