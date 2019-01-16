@@ -1,0 +1,88 @@
+//header
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 65px;
+  background-color: $color-black;
+  z-index: 1;
+
+  &-slogan {
+    width: 100%;
+    display: inline-block;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+  }
+}
+
+//navigation
+
+nav {
+  position: fixed;
+  top: 65px;
+  width: 20vw;
+  z-index: 0;
+  left: 0;
+}
+
+.sidebar-nav {
+  width: 185px;
+  background-color: black;
+  height: 100vh;
+
+  li {
+    text-indent: 20px;
+    line-height: 40px;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: #999999;
+
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      &:active,
+      a:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+
+    a {
+      text-transform: uppercase;
+      color: #999999;
+
+      &:hover {
+        color: #fff;
+        background: none;
+      }
+    }
+  }
+}
+
+//footer
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #bfe6d3;
+}

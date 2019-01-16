@@ -3,6 +3,7 @@
 .vo_box_shadows{
   width: 150px;
   height: 150px;
+  margin-bottom: 20px;
   &_1 {
     @include box-shadows(1)
   }
@@ -28,7 +29,12 @@
   color: $color_black;
 }
 .vo_class_shadows{
+  width: 45vw;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 

@@ -1,0 +1,50 @@
+.heart_red{
+ color: red;
+}
+.heart_grey{
+  color: lightgray;
+}
+
+.segmented i {
+  color:lightgray;
+  &:hover{
+    color: black;
+  }
+}
+.big-icon {
+  height: 55px;
+  width: 55px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-color {
+  color: white;
+}
+.red-background {
+  background-color: #e91e63;
+}
+.light-blue-background {
+  background-color: #03a9f4;
+}
+.white-background {
+  background-color: #fafafa;
+}
+.icon-shadow_1{
+  @include box-shadow(1);
+}
+.small-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green-background {
+  background-color:seagreen;
+}
+.purple-background{
+  background-color: #673ab7;
+}

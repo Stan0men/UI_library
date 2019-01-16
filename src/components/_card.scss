@@ -1,0 +1,59 @@
+$horizontal-padding: 21px;
+
+.card-examples {
+  width:55%;
+  margin: 100px auto;
+}
+
+
+.dr-card {
+  @include common-styles();
+  @include box-shadow(1);
+
+  &__title {
+    display: block;
+    padding: 15px $horizontal-padding 0;
+    font-size: 24px;
+
+    @include ellipsis();
+
+    &_light {
+      color: $color-3;
+    }
+
+  }
+
+  &__header {
+    height: 180px;
+    position: relative;
+    display: flex;
+    padding-bottom: 12px;
+    background-color: $color-2;
+
+    .dr-card__title {
+      position: relative;
+      margin-top: auto;
+    }
+  }
+  &__description {
+    margin: 0;
+    padding: 20px $horizontal-padding 6px;
+  }
+
+  &__divider {
+    background-color: $color-4;
+    border: none;
+    height: 1px;
+  }
+
+  &__footer {
+    display: flex;
+    padding: 6px $horizontal-padding;
+  }
+
+  &__button {
+    &_pulled {
+      margin-left: auto;
+    }
+  }
+}

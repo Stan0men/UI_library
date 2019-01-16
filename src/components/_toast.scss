@@ -1,0 +1,36 @@
+.toast {
+  font-size: 14px;
+  &-header {
+    margin-top: 20px;
+    width: 290px;
+    background-color: $color-light_black;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: $color-white;
+    border-radius: 3px;
+  }
+
+  &-link {
+    width: 450px;
+    background-color: $color-light_black;
+    padding: 20px;
+    color: $color-white;
+    border-radius: 3px;
+    margin-bottom: 50px;
+
+    a {
+      color: #eeff41;
+      margin-left: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+
+  &-message {
+    width: 290px;
+    background-color: $color-light_black;
+    padding: 20px;
+    color: $color-white;
+    border-radius: 50px;
+  }
+}

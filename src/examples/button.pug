@@ -1,6 +1,6 @@
 include _mixin_button
 
-h1.vo_b_title Buttons
+h1#buttons.vo_b_title Buttons
     .class_button
         span.vo_b_chapter Flat buttons
         div
@@ -55,58 +55,3 @@ h1.vo_b_title Buttons
             label: 'directions_car',isRipple: true,
             class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray vo_button_icon_color_black_hover'
         })
-.vo_footer_button
-    .vo_position_footer
-        h1.vo_b_title Floating Action Button
-        .class_button
-            span.vo_b_chapter Regular
-            .vo_class_indent
-                +button({
-                    label: 'arrow_forward',isRipple: true,
-                    class: 'material-icons vo_floating_button vo_ripple_pink vo_floating_button_color_white vo_floating_button_background_pink vo_floating_button_position'
-                })
-                +button({
-                    label: 'create',isRipple: true,
-                    class: 'material-icons vo_floating_button vo_floating_button_color_white vo_ripple_blue vo_floating_button_background_blue vo_floating_button_position'
-                })
-                +button({
-                    label: 'add',isRipple: true,
-                    class: 'material-icons vo_floating_button vo_floating_button_color_gray vo_ripple_gray vo_floating_button_position'
-                })
-
-            span.vo_b_chapter  Mini
-            .vo_class_indent
-                +button({
-                    label: 'check',isRipple: true,
-                    class: 'material-icons vo_mini_button vo_ripple_green vo_mini_button_color_white vo_mini_button_background_green'
-                })
-                +button({
-                    label: 'reply',isRipple: true,
-                    class: 'material-icons vo_mini_button vo_ripple_purple vo_mini_button_color_white vo_mini_button_background_purple'
-                })
-                +button({
-                    label: 'close',isRipple: true,
-                    class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray'
-                })
-    .vo_position_footer
-        h1.vo_b_title FAB Speed Dial
-            .class_button
-                .vo_footer_right
-                    +button({
-                        label: 'close', isRipple: true,
-                        class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
-                    })
-                    +button({
-                        label: 'favorite',isRipple: true,
-                        class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
-                    })
-                    +button({
-                        label: 'create',isRipple: true,
-                        class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
-                    })
-                    +button({
-                        label: 'dehaze',isRipple: true,
-                        class: 'material-icons vo_floating_button vo_ripple_orange vo_mini_button_color_white'
-                    })
-
-

@@ -1,0 +1,26 @@
+form{
+  width: 640px;
+}
+
+.input{
+  height: 30px;
+  border:none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  &-top{
+    width: 250px;
+  }
+  &-middle{
+    width:100%;
+  }
+  &-bottom{
+    border:none;
+    border-bottom: 1px dashed lightgray;
+  }
+}
+
+textarea{
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.2);
+}
