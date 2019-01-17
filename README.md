@@ -21,4 +21,6 @@
 --- 
 
 ##### Creators 
-  [Oksana Rutska](https://github.com/oksanarutska/)
+ - [Oksana Rutska](https://github.com/oksanarutska/)
+ - [Yura Drotsenko](https://github.com/drotsyk/)
+ - [Sasha Nesterenko](https://github.com/Stan0men/)
